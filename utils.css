@@ -1,0 +1,27 @@
+.flex{
+    display:flex
+}
+.container{
+    padding:0px 10vw ; /* top bottom is first */
+    margin:auto;
+    
+}
+.items-center{
+    align-items: center;
+}
+.semi-bold{
+    font-weight: bolder;
+}
+.space-between{
+    justify-content: space-between;
+}
+.mx-2{
+ margin-left: 12px;
+ margin-right: 12px;
+}
+footer{
+    height:45vh;
+}
+.upper{
+    text-transform: uppercase;
+}

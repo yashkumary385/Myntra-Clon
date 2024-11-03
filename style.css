@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 8;
+
+}
+
+
+.left img {
+    width: 50px;
+    height: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 8px;
+}
+
+.section1 {
+    height: 110vh;
+    background-color: rgb(241, 239, 239);
+
+}
+
+.containerheader {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    margin: 16px 12px 0px;
+    padding: 0px 10vw;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+header {
+    font-size: 14px;
+    /* font-weight: bolder; */
+}
+
+nav {
+    padding-top: 10px;
+}
+
+.search {
+    width: 18vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+
+section img {
+    width: 80vw;
+    padding: 12px 0px;
+}
+
+/* .tshirt{
+    width:100vw;
+} */
+.itemImg {
+    width: 10vw;
+    padding:6px 12px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.shopping{
+    display:flex;
+    margin:2px 140px ;
+}
+.shopping ul{
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+    color:grey;
+    gap:5px;
+}
+.shopping h6{
+    color: black;
+
+}
+.register{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:grey;
+    padding:10px 0px 0px;
+
+}
+
